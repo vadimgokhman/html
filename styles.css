@@ -1,0 +1,102 @@
+body{
+	background-image: url("https://www.voyagerenavion.fr/wp-content/uploads/2019/05/alpes_francaises.jpg");
+    background-size: cover;
+	font-family:cursive;
+	font-size: 26px;
+}
+
+.nav {
+	display: flex;
+	margin-left: 80px;
+	width: 968px;
+  background-color: 3399ff;
+  border: 2px solid grey;
+}
+
+.nav a {
+		color: 000066;
+		padding: 15px 20px;
+		text-decoration: solid;
+		text-align: center;
+	}
+
+.nav a:hover {
+		background-color: #D8E6F5 ;
+		color: black;
+	}
+	.h1 {
+	font-family: cursive;
+	font-size:30px;
+	margin: 10 30 0 30;
+	color: #69585F;
+	text-align: center;
+	font-weight: solid;}
+
+.transbox {
+	margin: 80px;
+	background-color: #ffffff;
+	opacity: 0.7;
+}
+.transbox p {
+		margin: 2%;
+		font-weight: solid;
+		color: #000000;
+	}
+	
+.rowgreen {  
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #B8D8BA;
+  padding: 20px;
+}
+.linkbox {
+  flex: 20%;
+  background-color: #00FA9A;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  border: 4px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+.linkbox2 {
+  flex: 20%;
+  background-color: #00FA9A;
+  padding: 5px;
+  margin: 5px;
+  border: 4px solid black;
+  width: 250px;
+}
+.gallery {
+  margin-left: 80px;
+  margin-top: 80px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 200px;
+ }
+
+.gallery:hover {
+  border: 1px solid grey;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.desc {
+  padding: 15px;
+  font-size:25px;
+  text-align: center;
+  background-color: #00FA9A;
+}
+.address {
+  display: block;
+  font-style: italic;
+  margin-left: 80px;
+}
+
+
+ 
